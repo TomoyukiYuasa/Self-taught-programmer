@@ -35,4 +35,4 @@ def hangman(word):
         print("\n".join(stages[0:wrong]))
         print("You lose! It was {}.".format(word))
 
-hangman('cat')
+hangman('catcat')
